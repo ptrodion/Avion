@@ -1,28 +1,29 @@
 .container-header {
-  max-width: 1440px;
-  background-color: #232536;
-  padding: 12px 80px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   display: flex;
   justify-content: space-between;
   gap: 32px;
 }
 
-
-.header-nav {
+.header-nav,
+.footer-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex: 1;
 }
 
-.header-list {
+.header-list,
+.footer-list {
   display: flex;
   align-items: center;
   gap: 24px;
 }
 
-.header-list-item{
-  font-family:'Inter', sans-serif;
+.header-list-item,
+.footer-list-item {
+  font-family: 'Inter', sans-serif;
 }
 
 .header-button {
