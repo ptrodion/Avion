@@ -1,14 +1,17 @@
-.header {
+.container-header {
+  max-width: 1440px;
   background-color: #232536;
-  padding: 25px 80px;
+  padding: 12px 80px;
   display: flex;
   justify-content: space-between;
   gap: 32px;
 }
 
+
 .header-nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   flex: 1;
 }
 
@@ -16,4 +19,20 @@
   display: flex;
   align-items: center;
   gap: 24px;
+}
+
+.header-list-item{
+  font-family:'Inter', sans-serif;
+}
+
+.header-button {
+  width: 179px;
+  height: 56px;
+  background-color: #ffffff;
+  color: #232536;
+}
+
+.header-button-text {
+  font-weight: 700;
+  font-size: 18px;
 }

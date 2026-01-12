@@ -15,6 +15,7 @@ a:link,
 a:visited,
 a:hover {
   text-decoration: none;
+  color: inherit;
 }
 
 img {
@@ -42,6 +43,7 @@ input[type="submit"] {
   background-color: transparent;
   background: none;
   cursor: pointer;
+  font-family: inherit;
 }
 
 ul {
