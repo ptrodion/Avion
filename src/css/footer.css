@@ -1,10 +1,41 @@
 .container-footer {
   padding-top: 59px;
   padding-bottom: 56px;
+
+}
+
+.footer-subscribe-wrapper {
+  height: 256px;
+  padding: 64px 80px;
+  background-color: #302b2b;
+  margin-top: 55px;
 }
 
 .footer-subscribe {
-  margin-top: 55px;
-  background-color: #4C4C4C;
-  height: 256px;
+  display: flex;
+}
+
+.footer-subscribe-text {
+  max-width: 562px;
+  /* width: 100%; */
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.33;
+  /* color: #FFFFFF; */
+  /* margin-bottom: 24px; */
+}
+
+a.footer-subscribe-button {
+  max-width: 179px;
+  width: 100%;
+  height: 56px;
+  background-color: #FFD050;
+  color: #232536;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.33;
 }
