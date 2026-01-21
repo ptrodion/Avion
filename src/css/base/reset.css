@@ -1,19 +1,15 @@
-* {
-  padding: 0px;
-  margin: 0px;
-  border: none;
-}
-
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-a,
-a:link,
-a:visited,
-a:hover {
+body {
+  margin: 0;
+}
+
+
+a{
   text-decoration: none;
   color: inherit;
 }
@@ -31,15 +27,11 @@ h4,
 h5,
 h6,
 p {
-  font-size: inherit;
-  font-weight: inherit;
   margin: 0;
 }
 
-button,
-input[type="submit"] {
+button {
   display: inline-block;
-  box-shadow: none;
   background-color: transparent;
   background: none;
   cursor: pointer;
@@ -50,4 +42,15 @@ ul {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
 }

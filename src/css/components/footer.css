@@ -5,24 +5,34 @@
 }
 
 .footer-subscribe-wrapper {
-  height: 256px;
-  padding: 64px 80px;
+  padding: 80px 64px;
   background-color: #302b2b;
   margin-top: 55px;
 }
 
 .footer-subscribe {
   display: flex;
+  align-items: center;
 }
 
 .footer-subscribe-text {
-  max-width: 562px;
+  /* max-width: 562px; */
   /* width: 100%; */
   font-size: 36px;
   font-weight: 700;
   line-height: 1.33;
   /* color: #FFFFFF; */
   /* margin-bottom: 24px; */
+  margin-right: 64px;
+}
+
+.footer-subscribe-input {
+  max-width: 323px;
+  width: 100%;
+  height: 56px;
+  text-align: center;
+  margin-right: 24px;
+
 }
 
 a.footer-subscribe-button {
