@@ -1,11 +1,11 @@
-.container{
-  padding: 80px;
+.container {
+  padding: 0px 80px;
   max-width: 1440px;
   margin: 0 auto;
   background-color: var(--bg-primary);
 }
 
-body{
+body {
   color: #FFFFFF;
   font-family: 'Inter', sans-serif;
   font-size: 16px;
@@ -13,6 +13,36 @@ body{
   line-height: 1.75;
 }
 
-.wrapper {
-  width: 100%;
+.common-button {
+  border: none;
+  background-color: #ffffff;
+  min-width: 179px;
+  height: 56px;
+  padding: 0 20px;
+  border-radius: 100px;
+  font-family: var(--second-font);
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+  border: 2px solid transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.common-button:hover,
+.common-button:focus-visible {
+  border-color: var(--bg-secondary);
+  outline-offset: 3px
+}
+
+.common-link {
+  padding-top: 26px;
+  padding-bottom: 26px;
+  transition: color 200ms ease;
+}
+
+
+.common-link:hover,
+.common-:focus-visible {
+  color: var(--bg-secondary);
 }
