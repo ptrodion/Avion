@@ -19,7 +19,7 @@ body {
   min-width: 179px;
   height: 56px;
   padding: 0 20px;
-  border-radius: 100px;
+  border-radius: 25px;
   font-family: var(--second-font);
   color: var(--color-primary);
   font-weight: 700;
