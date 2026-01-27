@@ -1,4 +1,4 @@
-.hero-container {
+.hero {
   background-image: url('../../assets/images/hero-bkg-1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -17,20 +17,20 @@
   background-position: center, center;
 }
 
-.hero {
+.hero__wrapper {
   max-width: 804px;
   padding-top: 128px;
   padding-bottom: 192px;
 }
 
-.hero-label {
+.hero__label {
   line-height: 1.25;
   letter-spacing: 0.19em;
   text-transform: uppercase;
   margin-bottom: 24px;
 }
 
-.hero-title {
+.hero__title {
   font-family: "Sen", sans-serif;
   font-size: 56px;
   line-height: 1.14;
@@ -38,24 +38,24 @@
   margin-bottom: 24px;
 }
 
-.hero-meta {
+.hero__meta {
   margin-bottom: 16px;
 }
 
-.hero-meta-name {
+.hero__meta-name {
   color: #ffd050;
 }
 
-.hero-description {
+.hero__description {
   margin-bottom: 48px;
 }
 
-.hero-button {
+.hero__button {
   background-color: var(--bg-secondary);
 }
 
-.hero-button:hover,
-.hero-button:focus-visible {
+.hero__button:hover,
+.hero__button:focus-visible {
   border-color: var(--bg-primary);
   outline-offset: 3px
 }

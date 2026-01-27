@@ -1,4 +1,4 @@
-.container-header {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -7,20 +7,20 @@
   padding-bottom: 12px;
 }
 
-.header-nav,
-.footer-nav {
+.header__nav,
+.footer__nav {
   display: flex;
   align-items: center;
   gap: 621px;
 }
 
-.header-logo {
+.header__logo {
   display: flex;
   align-items: center;
 }
 
-.header-list,
-.footer-list {
+.header__menu,
+.footer__menu {
   display: flex;
   align-items: center;
   gap: 24px;

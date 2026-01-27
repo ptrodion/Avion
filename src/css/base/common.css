@@ -13,7 +13,7 @@ body {
   line-height: 1.75;
 }
 
-.common-button {
+.common__button {
   border: none;
   background-color: #ffffff;
   min-width: 179px;
@@ -29,20 +29,20 @@ body {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.common-button:hover,
-.common-button:focus-visible {
+.common__button:hover,
+.common__button:focus-visible {
   border-color: var(--bg-secondary);
   outline-offset: 3px
 }
 
-.common-link {
+.common__link {
   padding-top: 26px;
   padding-bottom: 26px;
   transition: color 200ms ease;
 }
 
 
-.common-link:hover,
-.common-:focus-visible {
+.common__link:hover,
+.common__link:focus-visible {
   color: var(--bg-secondary);
 }
